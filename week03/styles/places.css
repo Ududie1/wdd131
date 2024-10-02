@@ -1,0 +1,91 @@
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            text-align: center;
+        }
+        h1 {
+            background-color: #c01b2b;
+            color: white;
+            padding: 15px;
+            margin: 0;
+        }
+        .content {
+    
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 20px;
+            position: relative;
+        }
+        .transparent-box {
+            background-color: rgb(236, 226, 226);
+            opacity: 0.9; /* 50% transparency for the entire box */
+            color: rgb(226, 9, 9);
+            padding: 20px;
+            border-radius: 8px;
+        }
+        
+          fieldset {
+            display: flex;
+            text-align: left;
+            background-color: rgb(96, 3, 209);
+            grid-gap: .1rem;
+            margin: 1rem;
+            border: 1px solid rgba(247, 5, 5, 0.2);
+            padding: 1rem;
+          }
+          
+        .data, .weather {
+            opacity: 0.78;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            width: 30%;
+        }
+        .data {
+            background-color: #4CAF50;
+            color: white;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .weather {
+            background-color: #009688;
+            color: white;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+        }
+        .image-section {
+            width: 100%;
+        }
+        .image-section img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #c01b2b;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        footer p {
+            margin: 5px;
+            font-size: 0.9em;
+        }
+        .data p, .weather p {
+            margin: 5px 0;
+        }
+    </style>
