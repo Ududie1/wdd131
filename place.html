@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Madagascar Info</title>
+    <title>Nigeria info</title>
     <link rel="stylesheet" href="week03/styles/places.css">
-    
+    <script src="scripts/weather.js" defer></script>
 </head>
 <body>
+    
+    
     
     <div class="container">
         <h1>Nigeria</h1>
@@ -36,8 +38,9 @@
             <div class="weather">
                 <fieldset>
                 
-                    Weather
-                    <img src="images/icons.png" alt="">
+                    Weather 
+                    <p class="weather-icon">🌤️</p>
+                    
                       <!-- form elements will go here -->
                     </fieldset>
                 <h2></h2>
@@ -47,6 +50,36 @@
                 <p><strong>Wind Chill:</strong> 29°C</p>
             </div>
         </div>
+        <main>
+            <section></section>
+
+            <section id="weather">
+                <div>
+                    <div>
+                        <span> Temperature</span>
+                        <span id="temp"></span>
+                    </div>
+                    </div>
+                <div>
+                <div>
+                    <span> Wind Speed (MPH)</span>
+                    <span id="wind"></span>
+                </div>
+                </div>
+                <div>
+                <div>
+                    <span> Wind Chill </span>
+                    <span id="chill">----</span>
+                </div>
+                </div>
+                <div>
+                    <div>
+                        <button id="chillButton">Calculate Wind Chill</button>
+                        
+                    </div>
+                    </div>
+            </section>
+        </main>
         <footer>
             <p>©2024 Udie Stephen Udie &#127757; Nigeria</p>
             <p>Last Modification: 02/08/2024 22:47:47</p>
