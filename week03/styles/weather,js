@@ -10,9 +10,12 @@ const calculateWindChill = function(T,V) {
 document.getElementById("temp").innerHTML = temperature;
 document.querySelector("#wind").innerHTML = wind;
 
+
 function handClick() {
     const chill = calculateWindChill(temperature,wind);
     document.getElementById("chill").innerText = chill;
 }
 
-document.getElementById("chillButton").addEventListener('click',handleClick);
+document.getElementById("chillButton").addEventListener('click',() =>{
+    
+})
