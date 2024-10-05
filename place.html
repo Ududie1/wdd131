@@ -3,87 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nigeria info</title>
+    <title>Nigeria Info</title>
     <link rel="stylesheet" href="week03/styles/places.css">
-    <script src="scripts/weather.js" defer></script>
+    <script src="week03/script/weather.js" defer></script>
 </head>
 <body>
+    <h1>Nigeria</h1>
     
-    
-    
-    <div class="container">
-        <h1>Nigeria</h1>
-        <div class="content">
-            <div class="data">
-                <fieldset>
-                
-                    Data
-                        <!-- form elements will go here -->
-                      </fieldset>
-                <h2></h2>
-                <p><strong>Area:</strong> 923,769 sq km</p>
-                <p><strong>Population:</strong> 223,804,632</p>
-                <p><strong>Capital:</strong> Abuja</p>
-                <p><strong>Languages:</strong> English (official), Hausa, Yoruba, Igbo, and others</p>
-                <p><strong>Currency:</strong> Nigerian Naira (NGN)</p>
-                <p><strong>Time Zone:</strong> UTC+1</p>
-                <p><strong>Calling Code:</strong> +234</p>
-                <p><strong>Internet TLD:</strong> .ng</p>
-            </div>    <div class="data2">
-            
-            </div>
-            <div class="image-section">
-                <img src="images/nigeriaw.jpeg" alt="Nigeria">
-            </div>
-            <div class="weather">
-                <fieldset>
-                
-                    Weather 
-                    <p class="weather-icon">🌤️</p>
-                    
-                      <!-- form elements will go here -->
-                    </fieldset>
-                <h2></h2>
+    <div class="content">
+        <div class="data">
+            <fieldset>
+                <legend>Data</legend>
+                <!-- form elements can go here if needed in the future -->
+            </fieldset>
+            <h2>Country Information</h2>
+            <p><strong>Area:</strong> 923,769 sq km</p>
+            <p><strong>Population:</strong> 223,804,632</p>
+            <p><strong>Capital:</strong> Abuja</p>
+            <p><strong>Languages:</strong> English (official), Hausa, Yoruba, Igbo, and others</p>
+            <p><strong>Currency:</strong> Nigerian Naira (NGN)</p>
+            <p><strong>Time Zone:</strong> UTC+1</p>
+            <p><strong>Calling Code:</strong> +234</p>
+            <p><strong>Internet TLD:</strong> .ng</p>
+        </div>
+<div class="container2">
+
+</div>
+
+</div>      
+        <div class="weather">
+            <fieldset>
+                <legend>Weather</legend>
+                <p class="weather-icon">🌤️</p>
+
+            </fieldset>
                 <p><strong>Temperature:</strong> 30°C</p>
                 <p><strong>Conditions:</strong> Mostly Sunny</p>
                 <p><strong>Wind:</strong> 12 km/h</p>
                 <p><strong>Wind Chill:</strong> 29°C</p>
-            </div>
+           
         </div>
-        <main>
-            <section></section>
 
-            <section id="weather">
-                <div>
-                    <div>
-                        <span> Temperature</span>
-                        <span id="temp"></span>
-                    </div>
-                    </div>
-                <div>
-                <div>
-                    <span> Wind Speed (MPH)</span>
-                    <span id="wind"></span>
-                </div>
-                </div>
-                <div>
-                <div>
-                    <span> Wind Chill </span>
-                    <span id="chill">----</span>
-                </div>
-                </div>
-                <div>
-                    <div>
-                        <button id="chillButton">Calculate Wind Chill</button>
-                        
-                    </div>
-                    </div>
-            </section>
-        </main>
-        <footer>
-            <p>©2024 Udie Stephen Udie &#127757; Nigeria</p>
-            <p>Last Modification: 02/08/2024 22:47:47</p>
-        </footer>
+        <picture>
+            <source media="(min-width:650px)" srcset="images/responsive.jpeg">
+            <source media="(min-width:465px)" srcset="images/nigeriaflag.jpg">
+            <img src="images/responsive.jpeg" alt="Nigeria Flag" style="width:auto;">
+        </picture>
+
+
+
+
+        
     </div>
+    <main>
+        <section></section>
+
+        <section id="weather">
+            <div>
+                    <span> Temperature</span>
+                    <span id="temp"></span>
+                </div>
+                </div>
+                <span> Wind Speed (MPH)</span>
+                <span id="wind"></span>
+            </div>
+            </div>
+                <span> Wind Chill </span>
+                <span id="chill">--</span>
+            </div>
+            <div>
+                    <button id="chillButton">Calculate Wind Chill</button>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <p>©2024 Udie Stephen Udie &#127757; Nigeria</p>
+        <p>Last Modification: 02/08/2024 22:47:47</p>
+    </footer>
+</div>
 </body>
 </html>
+
+
+        
