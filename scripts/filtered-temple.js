@@ -61,7 +61,14 @@ const temples = [
       dedicated: "1980, October, 27",
       area: 52594,
       imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
-    }
+    },
+    {
+        templeName: "Tokyo Japan",
+        location: "Tokyo, Japan",
+        dedicated: "1980, October, 27",
+        area: 52594,
+        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
+      }
     
     
 ];
@@ -99,7 +106,7 @@ function displayTemples(temples) {
           <p><strong>Location:</strong> ${temple.location}</p>
           <p><strong>Dedicated:</strong> ${temple.dedicated}</p>
           <p><strong>Area:</strong> ${temple.area} sq ft</p>
-          <img src="${temple.imageUrl}" alt="${temple.templeName}">
+          <img src="${temple.imageUrl}" alt="${temple.templeName} loading="lazy">
       `;
 
       templeContainer.appendChild(templeCard);

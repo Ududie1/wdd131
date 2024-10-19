@@ -1,0 +1,122 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.review-container {
+    background-color: #e4d9e4;
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.review-form {
+    text-align: left;
+}
+
+
+
+h2 {
+    text-align: center;
+    color: #4b234b;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+select, input[type="date"], input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.rating label {
+    font-size: 25px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating input:checked ~ label {
+    color: #ff9f43;
+}
+
+.rating label:hover, .rating label:hover ~ label {
+    color: #ff9f43;
+}
+
+.features {
+    margin-bottom: 10px;
+}
+
+.features label {
+    font-weight: normal;
+}
+footer p, hea {
+    margin: 5px 0;
+}
+@media (min-width: 740px) {
+	header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+		    grid-auto-flow: column;
+
+    }
+	
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4b234b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #341734;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    color: #4b234b;
+    margin-top: 20px;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

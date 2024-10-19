@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtered Temples</title>
+    <meta name="description" content="This assignment applies the concepts presented in the learning activities to a temple album page that is responsive in small and larger views. This page will utilize a 'hamburger' menu and respond to user requests.">
+    <meta name="author" content="Udie Stephen Udie">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/filtered-tepmple1.css">
+    <link rel="stylesheet" href="styles/formlarge.css">
+    <link rel="stylesheet" href="week05/form.css">
+    <script src="scripts/filtered-temple.js" defer></script>
+    <header>
+        <div class="header-container">
+            <h2>Product Review</h2>
+            
+            
+        </div>
+    </header>
+
+   
+<main>
+   
+    <body>
+        <div class="container">
+            <div class="review-form">
+                
+                <form>
+                    <label for="product-name">Product Name</label>
+                    <select id="product-select">
+                        <option value="">Select a product</option>
+                      </select>
+                      
+                        <!-- Add more products as needed -->
+                    </select>
+    
+                    <label>Overall Rating</label>
+                    <div class="rating">
+                        <input type="radio" id="star1" name="rating" value="1">
+                        <label for="star1">★</label>
+                        <input type="radio" id="star2" name="rating" value="2">
+                        <label for="star2">★★</label>
+                        <input type="radio" id="star3" name="rating" value="3">
+                        <label for="star3">★★★</label>
+                        <input type="radio" id="star4" name="rating" value="4">
+                        <label for="star4">★★★★</label>
+                        <input type="radio" id="star5" name="rating" value="5">
+                        <label for="star5">★★★★★</label>
+                    </div>
+    
+                    <label for="installation-date">Date of Installation</label>
+                    <input type="date" id="installation-date" name="installation-date">
+    
+                    <label for="features">Which features did you find useful in the product?</label>
+                    <div class="features">
+                        <input type="checkbox" id="durability" name="feature" value="durability">
+                        <label for="durability">Durability</label>
+                        <input type="checkbox" id="ease-of-use" name="feature" value="ease-of-use">
+                        <label for="ease-of-use">Ease of Use</label>
+                        <input type="checkbox" id="performance" name="feature" value="performance">
+                        <label for="performance">Performance</label>
+                        <input type="checkbox" id="design" name="feature" value="design">
+                        <label for="design">Design</label>
+                    </div>
+    
+                    <label for="written-review">Written Review (Optional)</label>
+                    <textarea id="written-review" name="written-review" rows="4" placeholder="Write your review here..."></textarea>
+    
+                    <label for="your-name">Your Name (Optional)</label>
+                    <input type="text" id="your-name" name="your-name" placeholder="Your Name">
+    
+                    <button type="submit">Post Review</button>
+                </form>
+            </div>
+    
+    </header>      
+    
+</main>
+<body>
+    
+</body>
+<footer>
+    <p> &copy;<span id="currentYear">2024</span> 🌸 Udie Stephen Udie  🌸 Cross River, Nigeria</p>
+    <p id="lastModified">Last Modification: 01/29/2024 19:11:06</p>
+   
+</footer>
+</html>
